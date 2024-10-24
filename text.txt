@@ -1,0 +1,26 @@
+Juego diseñado en Python
+
+Pantalla de introducción
+    Texto explicando las reglas al usuario
+
+    Temporizador de 3 segundos (cuenta atrás de 3 segundos)
+    setTimeout(() => {})
+
+    Botón de omitir el temporizador
+
+Pantalla de juego (Aparece cuando el primer temporizador acabe)
+     Establecer un score y setearlo en 0 (tenerlo invisible y hacerlo visible 
+     luego de que el temporizador acabe)
+
+    let score = 0;
+    let scoreVisible = false;
+    let scoreVisible = true;
+
+    Generar otro temporizador y setearlo en 10 segundos
+
+    Hacer un loop que imprima una cantidad de elementos variable en pantalla. Se genera un nuevo
+    elemento en un rango de 1 a 3 segundos. Los elementos generados se imprimen en una posición distinta
+    del último elemento generado. Los elementos permanecen solamente por 2 segundos.
+
+    Aumentar la puntuación en 1 cuando se seleccione el elemento con el mouse 
+    (para eso hay que trackear la posición del mouse en el elemento) y "Eliminarlo"
